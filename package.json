@@ -1,0 +1,27 @@
+{
+  "name": "pi-caveman-mode",
+  "version": "1.0.0",
+  "description": "Caveman Mode extension for pi. Makes assistant responses terse and blunt.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "extension",
+    "pi",
+    "caveman-mode"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
