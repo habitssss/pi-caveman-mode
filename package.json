@@ -11,11 +11,22 @@
   ],
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habitssss/pi-caveman-mode.git"
+  },
+  "homepage": "https://github.com/habitssss/pi-caveman-mode#readme",
+  "bugs": {
+    "url": "https://github.com/habitssss/pi-caveman-mode/issues"
+  },
   "files": [
     "extensions",
     "README.md",
     "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@mariozechner/pi-coding-agent": "*"
   },

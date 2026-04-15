@@ -17,7 +17,19 @@ When active, it injects a style instruction into pi's system prompt so replies b
 
 ## Install
 
-### Option 1: Install directly from GitHub with pi
+### Option 1: Install from npm with pi
+
+```bash
+pi install npm:pi-caveman-mode
+```
+
+Then reload pi:
+
+```text
+/reload
+```
+
+### Option 2: Install directly from GitHub with pi
 
 ```bash
 pi install git:github.com/habitssss/pi-caveman-mode
@@ -35,7 +47,7 @@ Then reload pi:
 /reload
 ```
 
-### Option 2: Manual install
+### Option 3: Manual install
 
 Copy the extension file into your global pi extensions directory:
 
@@ -62,6 +74,12 @@ Then run `/reload` in pi.
 ## Uninstall
 
 ### If installed with pi package manager
+
+```bash
+pi remove npm:pi-caveman-mode
+```
+
+Or if installed from GitHub:
 
 ```bash
 pi remove git:github.com/habitssss/pi-caveman-mode
